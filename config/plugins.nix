@@ -6,6 +6,7 @@
   plugins.lspconfig.enable = true;
   plugins.noice.enable = true;
   plugins.lualine.enable = true;
+  plugins.render-markdown.enable = true;
 
   imports = [
     ./plugins/telescope.nix
