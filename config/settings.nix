@@ -13,4 +13,8 @@
     mouse = "a";
     swapfile = false;
   };
+
+  extraConfigLua = ''
+    -- require('telescope').setup()
+  '';
 }

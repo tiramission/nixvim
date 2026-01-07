@@ -6,6 +6,7 @@
   lsp.servers = {
     gopls.enable = true;
     zls.enable = true;
+    ty.enable = true;
 
     nil_ls = {
       enable = true;
