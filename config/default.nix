@@ -1,7 +1,9 @@
 {
   # Import all your configuration modules here
   imports = [
-    ./ui.nix
+    ./settings.nix
+    ./keymaps.nix
+    ./lsp.nix
     ./plugins.nix
   ];
 }

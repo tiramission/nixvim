@@ -7,15 +7,17 @@
   };
 
   outputs = {nixvim, ...} @ inputs: let
-    systems = ["x86_64-linux" "aarch64-darwin" "aarch64-linux"];
+    systems = [
+      "x86_64-linux"
+      "aarch64-darwin"
+      "aarch64-linux"
+    ];
     forAllSystems = inputs.nixpkgs.lib.genAttrs systems;
   in let
     nixvimModuleFor = system: {
-      inherit system; # or alternatively, set `pkgs`
-      module = import ./config; # import the module directly
-      extraSpecialArgs = {
-        # inherit (inputs) foo;
-      };
+      inherit system;
+      module = import ./config;
+      extraSpecialArgs = {};
     };
   in {
     checks = forAllSystems (system: {
