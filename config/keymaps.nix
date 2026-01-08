@@ -17,5 +17,13 @@
         desc = "Quit Save";
       };
     }
+    {
+      mode = "i";
+      key = "jk";
+      action = "<esc>";
+      options = {
+        desc = "Esc Key";
+      };
+    }
   ];
 }
