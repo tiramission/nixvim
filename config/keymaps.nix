@@ -11,6 +11,14 @@
     }
     {
       mode = "n";
+      key = "<leader>q!";
+      action = "<cmd>qa!<cr>";
+      options = {
+        desc = "Quit Indirect";
+      };
+    }
+    {
+      mode = "n";
       key = "<leader>qx";
       action = "<cmd>wqa<cr>";
       options = {
