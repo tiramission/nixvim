@@ -16,5 +16,7 @@
     ./plugins/neo-tree.nix
     ./plugins/blink-cmp.nix
     ./plugins/treesitter.nix
+    ./plugins/showkeys.nix
+    ./plugins/toggleterm.nix
   ];
 }

@@ -6,7 +6,7 @@
   keymaps = [
     {
       mode = ["n"];
-      key = "<leader>e";
+      key = "<leader>ue";
       action = "<cmd>Neotree toggle<cr>";
       options = {
         desc = "Open/Close Neotree";

@@ -40,5 +40,9 @@
       __unkeyed-1 = "<leader>q";
       group = "Quits";
     }
+    {
+      __unkeyed-1 = "<leader>u";
+      group = "UIs";
+    }
   ];
 }
