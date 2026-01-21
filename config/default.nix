@@ -3,7 +3,7 @@
   imports = [
     ./settings.nix
     ./keymaps.nix
-    ./lsp.nix
+    ./lsps.nix
     ./plugins.nix
   ];
 }

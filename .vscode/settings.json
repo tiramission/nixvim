@@ -1,0 +1,15 @@
+{
+    "editor.links": false,
+    "nix.formatterPath": "alejandra",
+    "nix.enableLanguageServer": true,
+    "nix.serverSettings": {
+        "nil": {
+            "nix": {
+                "flake": {
+                    "autoArchive": true,
+                    "autoEvalInputs": true
+                }
+            }
+        }
+    }
+}
