@@ -16,4 +16,12 @@
       options.desc = "Toggle showkeys";
     }
   ];
+
+  # auto start
+  autoCmd = [
+    {
+      command = "ShowkeysToggle";
+      event = "UIEnter";
+    }
+  ];
 }

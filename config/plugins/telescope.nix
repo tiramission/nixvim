@@ -8,15 +8,19 @@
         action = "find_files";
         options.desc = "Find project files";
       };
-      "<leader>/" = {
+      "<leader>s/" = {
         action = "live_grep";
         options.desc = "Grep (Root Dir)";
       };
-      "<leader>:" = {
+      "<leader>s;" = {
         action = "command_history";
         options.desc = "Command History";
       };
-      "<leader>b" = {
+      "<leader>s:" = {
+        action = "command_history";
+        options.desc = "Command History";
+      };
+      "<leader>sb" = {
         action = "buffers";
         options.desc = "Buffers";
       };

@@ -18,5 +18,6 @@
     ./plugins/treesitter.nix
     ./plugins/showkeys.nix
     ./plugins/toggleterm.nix
+    ./plugins/flash.nix
   ];
 }
