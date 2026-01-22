@@ -15,5 +15,5 @@ jobs:
           authToken: "${{ secrets.CACHIX_AUTH_TOKEN }}"
       - name: Build 
         run: nix build -L
-      - name: Deploy
+      - name: Push
         run: cachix push tiramission ./result
