@@ -20,5 +20,25 @@
       key = "<a-l>";
       action = "<c-w>l";
     }
+    {
+      mode = "n";
+      key = "<a-left>";
+      action = "<c-w>h";
+    }
+    {
+      mode = "n";
+      key = "<a-down>";
+      action = "<c-w>j";
+    }
+    {
+      mode = "n";
+      key = "<a-up>";
+      action = "<c-w>k";
+    }
+    {
+      mode = "n";
+      key = "<a-right>";
+      action = "<c-w>l";
+    }
   ];
 }
