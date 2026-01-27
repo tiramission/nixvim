@@ -19,5 +19,6 @@
     ./plugins/showkeys.nix
     ./plugins/toggleterm.nix
     ./plugins/flash.nix
+    ./plugins/rest.nix
   ];
 }
