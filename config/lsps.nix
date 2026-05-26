@@ -5,5 +5,8 @@
     ty.enable = true;
   };
 
-  imports = [./lsps/nix.nix];
+  imports = [
+    ./lsps/nix.nix
+    ./lsps/lua.nix
+  ];
 }
