@@ -1,6 +1,6 @@
 {
-    plugins.vim-suda.enable = true;
-    keymaps = [
+  plugins.vim-suda.enable = true;
+  keymaps = [
     {
       mode = ["n"];
       key = "<leader>w!";

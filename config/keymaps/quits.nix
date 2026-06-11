@@ -39,7 +39,7 @@
       __unkeyed-1 = "<leader>q";
       group = "Quits";
     }
-     {
+    {
       __unkeyed-1 = "<leader>w";
       group = "Writes";
     }
